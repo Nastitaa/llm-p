@@ -5,8 +5,21 @@ build/
 dist/
 wheels/
 *.egg-info
-
-# Virtual environments
+*.py[cod]
+*.so
+.Python
+env/
 .venv
-
 .env
+venv/
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Версии Python (локальные)
+.python-version
+
+.env.local
+.DS_Store
